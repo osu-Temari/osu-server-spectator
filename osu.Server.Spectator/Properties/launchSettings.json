@@ -15,7 +15,9 @@
       "launchUrl": "spectator",
       "applicationUrl": "http://localhost:5009",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "SAVE_REPLAYS": "1",
+        "REPLAYS_PATH": "${OSU_WEB_DIRECTORY}/public/uploads-solo-replay"
       }
     }
   }
